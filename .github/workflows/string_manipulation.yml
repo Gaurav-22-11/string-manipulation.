@@ -23,5 +23,3 @@ jobs:
       run: python test_bot.py
         
 
-    - name: 
-      
