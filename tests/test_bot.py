@@ -1,7 +1,7 @@
 import unittest
 from string_manipulation import StringManipulation
 
-class TestStringManipulation(unittest.TestCase)
+class TestStringManipulation(unittest.TestCase):
   def setUp():
     self.bot=StringManipulation()
 
