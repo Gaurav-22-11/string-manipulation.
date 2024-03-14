@@ -15,7 +15,7 @@ class TestStringManipulation(unittest.TestCase):
 
   def test_substring_extraction(self):
     result= self.bot.extract_substring("Hello World!",6,12)
-    self.assertEqual(result, "World")
+    self.assertEqual(result, "World!")
 
 if __name__ == '__main__':
   unittest.main()
