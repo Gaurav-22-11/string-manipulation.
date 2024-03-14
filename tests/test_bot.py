@@ -2,7 +2,7 @@ import unittest
 from string_manipulation import StringManipulation
 
 class TestStringManipulation(unittest.TestCase):
-  def setUp():
+  def setUp(self):
     self.bot=StringManipulation()
 
   def test_concatenate(self):
